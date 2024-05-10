@@ -18,9 +18,11 @@ const BuggyButtons = () => {
           display: "flex",
           flexDirection: "column",
         }}
+        className="mb-20"
       >
         <div
           style={{ display: "flex", justifyContent: "center", marginTop: 50 }}
+          className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           {IDs.map((item) => {
             return (
